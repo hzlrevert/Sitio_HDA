@@ -55,6 +55,7 @@ html{
 
 body{
     font-family: var(--text-text);
+    cursor: url(../img/cursor.png),auto;
 }
 
 img{
@@ -71,6 +72,7 @@ ul{
 
 a{
     text-decoration: none;
+    cursor: url(../img/cursor.png),auto;
     
 }
 /*helper*/
