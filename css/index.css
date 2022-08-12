@@ -116,6 +116,16 @@ a{
     font-family: var(--text-tit);
     background-color: var(--primario);
     
+    
+}
+
+.navbar{
+    background-color: var(--primario);
+}
+nav .menu__link--activo{
+    color: var(--terciario);
+    padding: 1rem;
+    transition: all .8s;
 }
 .main-header__nav{
     display: flex;
@@ -139,28 +149,39 @@ a{
 .menu__link{
     color: var(--terciario);
     padding: 1rem;
-    transition: all .3s;
+    transition: all .8s;
+    
 
 }
 .menu__link:hover{
     background-color: var(--terciario);
-    color: var(--primario);
+    color: var(--primario);  
 }
+
+
+
 
 .menu__link--activo{
     border: 2px solid var(--terciario);
 }
 
-@media screen and (max-width:645px) {
+@media screen and (max-width:680px) {
    :root{ 
         --tam-tit: 58px;
         --tam-h2: 30px;
         --tam-h3: 20px;
         --tam-tex: 10px;
         --tam-a: 20px;
+
+    }
+    .video-ytb{
+        
+        width: 310px;
+        height: 150;
+         
     }
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:490px) {
     :root{ 
          --tam-tit: 38px;
          --tam-h2: 10px;
@@ -169,6 +190,7 @@ a{
          --tam-a: 10px;
      }
  }
+
 
 
  /*Footer*/
@@ -279,6 +301,7 @@ gap: 1rem;
     background-color: var(--terciario);
     color: var(--primario);
 }
+
 #cuadrante{
     flex: 1 1 250px;    
 }
@@ -301,10 +324,11 @@ gap: 1rem;
 }
 
 
+
 #secciones{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: var(--spacing-sm);
