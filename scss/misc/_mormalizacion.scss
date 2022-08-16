@@ -1,0 +1,65 @@
+/*normalizar*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--primario);
+}
+
+body{
+    font-family: var(--text-text);
+    cursor: url(../img/cursor.png),auto;
+}
+
+img{
+    width: 100%; 
+}
+.logo-div{
+    width:50%;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: url(../img/cursor.png),auto;
+    
+}
+
+
+/*text*/
+p{
+    color: var(--colortext);
+    font-size: var(--tam-tex);
+}
+h2{
+    color: var(--colortext);
+    font-family: var(--text-tit);
+    font-size: var(--tam-h2);
+}
+.h2--amarillo{
+    color: var(--terciario);
+    font-family: var(--text-tit);
+    font-size: var(--tam-h2);
+}
+h3{
+    color: var(--colortext);
+    font-size: var(--tam-h3);
+}
+.redes h3{
+    color: var(--primario);
+    font-family: var(--text-tit);
+    font-size: var(--tam-h3);
+}
+.h3--roles{
+    color: var(--terciario);
+    font-size: var(--tam-h2)
+}

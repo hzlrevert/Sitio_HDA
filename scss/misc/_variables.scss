@@ -1,0 +1,38 @@
+
+
+/*
+amarillo #FFC632
+negro #07080D
+BLANCO #D9D9D9
+AZUl noche #111523
+
+
+alt+shift+a
+*/
+
+/*VARIABLES*/
+:root {
+
+    /*colores*/
+
+    --primario: #07080D;
+    --secundario: #111523;
+    --terciario: #FFC632;
+    --colortext: #D9D9D9;
+
+    /*fuentes*/
+
+    --text-tit: 'Fugaz One', cursive;
+    --text-text: 'Montserrat', sans-serif;
+    /*tamaños*/
+    --tam-tit: 78px;
+    --tam-h2: 30px;
+    --tam-h3: 20px;
+    --tam-tex: 17px;
+    --tam-a: 30px;
+
+    /*separadores*/
+     --spacing-lg: 48px;
+    --spacing-md: 36px;
+     --spacing-sm: 24px;
+    }

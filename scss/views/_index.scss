@@ -1,0 +1,34 @@
+/*PRINCIPAL*/
+
+.principal--titulo{
+    font-family: var(--tam-tit);
+    font-size: var(--tam-tit);
+    color: var(--colortext);
+    
+
+}
+
+.principal--titulo__amarillo{
+    font-family: var(--tam-tit);
+    font-size: var(--tam-tit);
+    color: var(--terciario);
+}
+
+#principal{
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.principal__a{
+    color: var(--terciario);
+    transition: all .3s;
+    font-size: var(--tam-link);
+    font-size: var(--tam-a);
+}
+.principal__a:hover{
+    background-color: var(--terciario);
+    color: var(--primario);
+}
