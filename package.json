@@ -1,11 +1,11 @@
 {
   "name": "sitio_hda",
   "version": "1.0.0",
-  "description": "",
+  "description": "proyecto para coderhouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/index.scss css/translated.css",
+    "build-css": "node-sass --include-path scss scss/index.scss css/index.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
