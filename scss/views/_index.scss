@@ -27,8 +27,10 @@ gap: 1rem;
     transition: all .3s;
     font-size: var(--tam-link);
     font-size: var(--tam-a);
-}
-.principal__a:hover{
+
+
+
+&:hover{
     background-color: var(--terciario);
     color: var(--primario);
-}
+}}

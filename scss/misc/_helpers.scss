@@ -35,6 +35,22 @@
 
 #cuadrante{
     flex: 1 1 250px;    
+
+
+
+    &--izq{
+        flex: 1 1 250px;  
+        
+        
+    }
+    
+    
+    /*DERECHO*/
+    &--der{
+        flex: 1 1 250px;  
+        
+     
+    }
 }
 
 
@@ -49,12 +65,12 @@
     border: 2px solid var(--terciario);
     font-size: var(--tam-a);
    
+    &:hover{
+        background-color: var(--terciario);
+        color: var(--primario);
+    }
+}
 
-}
-.cuadrante--a:hover{
-    background-color: var(--terciario);
-    color: var(--primario);
-}
 
 
 
@@ -68,16 +84,3 @@
 
 
     }
-#cuadrante--izq{
-    flex: 1 1 250px;  
-    
-    
-}
-
-
-/*DERECHO*/
-#cuadrante--der{
-    flex: 1 1 250px;  
-    
- 
-}

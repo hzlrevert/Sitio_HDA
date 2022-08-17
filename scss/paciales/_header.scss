@@ -7,6 +7,20 @@
     background-color: var(--primario);
     
     
+
+    &__nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    &__logo{
+        display: block;
+        max-width: 150px;
+        min-width: 120px;
+    }
 }
 
 .navbar{
@@ -17,43 +31,34 @@ nav .menu__link--activo{
     padding: 1rem;
     transition: all .8s;
 }
-.main-header__nav{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-}
 
-.main-header__logo{
-    display: block;
-    max-width: 150px;
-    min-width: 120px;
-}
+
+
 
 .menu{
     display: flex;
     align-items:center ;
     gap: 2rem;
+
+
+    &__link{
+        color: var(--terciario);
+        padding: 1rem;
+        transition: all .8s;
+        
+        &--activo{
+            border: 2px solid var(--terciario);
+        }
+
+        &:hover{
+            background-color: var(--terciario);
+            color: var(--primario);  
+        }
+    }
 }
-.menu__link{
-    color: var(--terciario);
-    padding: 1rem;
-    transition: all .8s;
-    
-
-}
-.menu__link:hover{
-    background-color: var(--terciario);
-    color: var(--primario);  
-}
 
 
 
-
-.menu__link--activo{
-    border: 2px solid var(--terciario);
-}
 
 @media screen and (max-width:680px) {
    :root{ 

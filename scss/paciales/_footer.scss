@@ -30,13 +30,16 @@
 }
 
 
-.redes__link{
-    color: var(--primario);
-    text-decoration: none;
-}
+
 
 .redes{
     display: flex;
     align-items:center ;
     gap: 2rem;
+
+    &__link{
+        color: var(--primario);
+        text-decoration: none;
+    }
+
 }
