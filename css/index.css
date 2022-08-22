@@ -86,9 +86,9 @@ h3 {
   font-size: var(--tam-h2); }
 
 /*helper*/
-.container {
-  margin: 0 auto;
-  max-width: 1200px; }
+.conteiner {
+  margin: 10px;
+  /*max-width: 1400px;*/ }
 
 .flex-row {
   display: flex;
