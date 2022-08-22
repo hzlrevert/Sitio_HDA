@@ -304,3 +304,9 @@ img {
     font-size: var(--tam-tit);
     color: var(--terciario);
     text-align: end; }
+
+.galerias--titulo {
+  font-family: var(--text-tit);
+  font-size: var(--tam-h2);
+  color: var(--terciario);
+  text-align: center; }
