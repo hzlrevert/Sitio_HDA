@@ -1,0 +1,21 @@
+
+
+.galeria--titulo{
+    
+        font-family: var(--tam-tit);
+        font-size: var(--tam-tit);
+        color: var(--colortext);
+        text-align:center;
+    
+        &__amarillo{
+            font-family: var(--tam-tit);
+            font-size: var(--tam-tit);
+            color: var(--terciario);
+        }
+        &__amarillo2{
+            font-family: var(--tam-tit);
+            font-size: var(--tam-tit);
+            color: var(--terciario);
+            text-align: end;
+        }       
+}

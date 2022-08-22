@@ -289,3 +289,18 @@ nav .menu__link--activo {
 
 img {
   display: block; }
+
+.galeria--titulo {
+  font-family: var(--tam-tit);
+  font-size: var(--tam-tit);
+  color: var(--colortext);
+  text-align: center; }
+  .galeria--titulo__amarillo {
+    font-family: var(--tam-tit);
+    font-size: var(--tam-tit);
+    color: var(--terciario); }
+  .galeria--titulo__amarillo2 {
+    font-family: var(--tam-tit);
+    font-size: var(--tam-tit);
+    color: var(--terciario);
+    text-align: end; }
