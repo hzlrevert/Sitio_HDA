@@ -38,11 +38,15 @@ alt+shift+a
 
 html {
   font-size: 62.5%;
-  background-color: var(--primario); }
+  background-color: var(--primario);
+  height: 100%; }
 
 body {
   font-family: var(--text-text);
-  cursor: url(../img/cursor.png), auto; }
+  cursor: url(../img/cursor.png), auto;
+  min-height: 100%;
+  flex-direction: column;
+  display: flex; }
 
 img {
   width: 100%; }
@@ -215,7 +219,8 @@ nav .menu__link--activo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start center;
-  /*gap: 2rem;*/ }
+  /*gap: 2rem;*/
+  margin-top: auto; }
 
 @media screen and (max-width: 900px) {
   .main-footer {

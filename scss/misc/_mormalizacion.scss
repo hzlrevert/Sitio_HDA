@@ -9,11 +9,15 @@
 html{
     font-size: 62.5%;
     background-color: var(--primario);
+    height: 100%;
 }
 
 body{
     font-family: var(--text-text);
     cursor: url(../img/cursor.png),auto;
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
 }
 
 img{
