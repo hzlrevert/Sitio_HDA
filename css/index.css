@@ -283,7 +283,7 @@ nav .menu__link--activo {
     background-color: var(--terciario);
     color: var(--primario); }
 
-#secciones--stream {
+#secciones--stream, #secciones--streams {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -294,6 +294,14 @@ nav .menu__link--activo {
 
 img {
   display: block; }
+
+/*EXTEND*/
+/*MAPA*/
+.subtitulo--amarillo {
+  color: #FFC632; }
+
+.subtitulo--blanco {
+  color: #D9D9D9; }
 
 .galeria--titulo {
   font-family: var(--text-tit);
@@ -318,14 +326,16 @@ img {
   margin-top: 30px; }
 
 .galerias--carousel {
-  margin-top: 40px;
-  margin-bottom: 10px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
+/*MIXIN*/
 .galeria-reclutas {
   display: grid;
   margin-top: 20px;
-  margin-bottom: 10px;
-  gap: var(--spacing-sm);
+  margin-bottom: 20px;
+  gap: var(--spacing-md);
+  margin-left: 5px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr); }
   .galeria-reclutas__img:nth-of-type(1) {
@@ -350,8 +360,9 @@ img {
 .galeria-entrenamientos {
   display: grid;
   margin-top: 20px;
-  margin-bottom: 10px;
-  gap: var(--spacing-sm);
+  margin-bottom: 20px;
+  gap: var(--spacing-md);
+  margin-left: 5px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr); }
   .galeria-entrenamientos__img:nth-of-type(1) {

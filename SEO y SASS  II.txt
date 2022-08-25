@@ -1,0 +1,15 @@
+Se aplicó mapa y extend a streams.HTML y mixin a galeria.HTML
+
+SEO:
+Cada página del sitio ya contaba con sus respectivos nombres, se agregaron palabras claves:
+index.html: “hermanos de armas, arma 3, arma iii, clan de arma, milsim, simulador, simulador de combate, entrenamiento militar, clan, clan argentino,”
+
+streams.html:" hermanos de armas, arma 3, arma iii, clan de arma, milsim, simulador, simulador de combate, entrenamiento militar, clan, clan argentino, streams, vivos, youtube, twitch"
+
+galeria.html: " hermanos de armas, arma 3, arma iii, clan de arma, milsim, simulador, simulador de combate, entrenamiento militar, clan, clan argentino, unirse, imagenes, gameplay,"
+
+enviado.html: No se agrega ninguna ya que es una página a la cual se dirige únicamente después de enviar el formulario de contacto.
+
+contacto.html: " hermanos de armas, arma 3, arma iii, clan de arma, milsim, simulador, simulador de combate, entrenamiento militar, clan, clan argentino, discord, hda, comunidad de videojuegos, videojuegos"
+
+conocenos.html: " hermanos de armas, arma 3, arma iii, clan de arma, milsim, simulador, simulador de combate, entrenamiento militar, clan, clan argentino, unirse"

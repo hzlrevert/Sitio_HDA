@@ -12,3 +12,24 @@
     img{
         display: block;
     }
+
+/*EXTEND*/
+    #secciones--streams{
+        @extend #secciones--stream;
+    }
+
+
+/*MAPA*/
+$subt:(
+    amarillo: #FFC632,
+    blanco: #D9D9D9,
+
+);
+
+@each $texto, $color in $subt {
+    .subtitulo--#{$texto}{
+
+    color:$color;
+}
+    
+}
