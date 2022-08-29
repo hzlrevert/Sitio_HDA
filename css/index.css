@@ -256,6 +256,18 @@ nav .menu__link--activo {
   #galeria.galeria__img:nth-of-type(6) {
     grid-column: 5/7; }
 
+.cuadrante--izq__tit {
+  text-align: end; }
+
+.cuadrante--izq__txt {
+  text-align: center; }
+
+.pos--der {
+  text-align: end; }
+
+.pos--cen {
+  text-align: center; }
+
 /*PRINCIPAL*/
 .principal--titulo {
   font-family: var(--tam-tit);
