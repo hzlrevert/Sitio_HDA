@@ -1,13 +1,13 @@
-
+---footer: mapa a la derecha
 Galeria: no se muestran todas las imagenes en el carrusel de reclutas
 Galeria: agregar la opcion de con click en foto ir a carrusel.
-footer: ajustar la ubicacion al aeropuerto
+---footer: ajustar la ubicacion al aeropuerto
 Conocenos: agregar fotos reales del aeropuerto
 ---conocenos: centrar logos de divisiones
 ---Conocenos: arreglar responsive centrado
 ---roles y divisiones: Poner nombres en amarillo
 ---index: botones al medio
 ---conocenos: yacare no redirige a roles y divisiones
-contato: no esta en orden el header
+---contato: no esta en orden el header
 
 

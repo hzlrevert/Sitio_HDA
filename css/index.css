@@ -183,6 +183,7 @@ nav .menu__link--activo {
   padding: 1rem;
   transition: all .8s; }
 
+  /*FCAY*/
 .menu {
   display: flex;
   align-items: center;
