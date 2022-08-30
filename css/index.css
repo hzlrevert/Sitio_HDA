@@ -149,6 +149,14 @@ h3 {
   gap: 1rem;
   margin-bottom: var(--spacing-sm); }
 
+.pos--der {
+  display: flex;
+  justify-content: end; }
+
+.pos--cen {
+  display: flex;
+  justify-content: center; }
+
 /*header*/
 .main-header {
   padding: 2rem;
@@ -255,18 +263,6 @@ nav .menu__link--activo {
     grid-column: 3/5; }
   #galeria.galeria__img:nth-of-type(6) {
     grid-column: 5/7; }
-
-.cuadrante--izq__tit {
-  text-align: end; }
-
-.cuadrante--izq__txt {
-  text-align: center; }
-
-.pos--der {
-  text-align: end; }
-
-.pos--cen {
-  text-align: center; }
 
 /*PRINCIPAL*/
 .principal--titulo {

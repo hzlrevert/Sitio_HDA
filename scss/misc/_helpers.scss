@@ -85,3 +85,18 @@
 
 
     }
+
+
+    $ubicacion:(
+        der: end,
+        cen:center,
+
+    );
+
+    @each $texto, $ubic in $ubicacion {
+        .pos--#{$texto}{
+            display: flex;
+            justify-content: $ubic;
+        }
+        
+    }
