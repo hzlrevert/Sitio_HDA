@@ -6,6 +6,6 @@ Conocenos: agregar fotos reales del aeropuerto
 ---conocenos: centrar logos de divisiones
 ---Conocenos: arreglar responsive centrado
 roles y divisiones: Poner nombres en amarillo
-index: botones al medio
+---index: botones al medio
 
 
