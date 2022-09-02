@@ -89,6 +89,9 @@ h3 {
   color: var(--terciario);
   font-size: var(--tam-h2); }
 
+p {
+  padding: 10px; }
+
 /*helper*/
 .conteiner {
   margin: 10px;
@@ -151,11 +154,13 @@ h3 {
 
 .pos--der {
   display: flex;
-  justify-content: end; }
+  justify-content: end;
+  text-align: end; }
 
 .pos--cen {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
 /*header*/
 .main-header {
@@ -290,6 +295,10 @@ nav .menu__link--activo {
   .principal__a:hover {
     background-color: var(--terciario);
     color: var(--primario); }
+
+.video--ytb {
+  display: flex;
+  place-content: center; }
 
 #secciones--stream, #secciones--streams {
   display: flex;
