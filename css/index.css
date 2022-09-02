@@ -46,7 +46,9 @@ body {
   cursor: url(../img/cursor.png), auto;
   min-height: 100%;
   flex-direction: column;
-  display: flex; }
+  display: flex;
+  max-width: 1850px;
+  margin: auto; }
 
 img {
   width: 100%; }
